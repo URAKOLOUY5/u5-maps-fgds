@@ -2933,6 +2933,8 @@
 	spotlightwidth(integer) : "Spotlight Width" : 50 : "Width of the spotlight beam."
 	rendercolor(color255) : "Color (R G B)" : "255 255 255"
 	HDRColorScale(float) : "HDR color scale." : "1.0" : "float value to multiply sprite color by when running in HDR mode."
+
+	SpotlightTexture(sprite) : "Spotlight texture" : "sprites/glow_test02.vmt" : "path to texture of spotlight beam."
 	
 	// Inputs
 	input LightOn(void) : "Turn the spotlight on."
